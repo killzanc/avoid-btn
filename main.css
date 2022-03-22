@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    cursor: url('./img/cursor_click_regular_icon_203700.png'), pointer;
+}
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(124,115,207);
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: 0.009s;
+
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow:rgb(0, 0,0, 0.35) 0 5px 15px;
+}
